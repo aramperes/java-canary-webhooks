@@ -1,7 +1,28 @@
 java-canary-webhooks
 ====
 
-*A simple Java library to send messages to Discord Canary webhook*
+*A simple Java library to send messages to Discord Canary webhooks*
+
+Setting Up
+--
+
+**Getting Discord Canary**
+
+Canary is an alternative to the main Discord Client, with the bleeding-edge API features available. It is required to create channel webhooks from a client. You can download Canary depending on your operating system:
+
+- [Download Canary for Windows](discordapp.com/api/download/canary?platform=win)
+- [Download Canary for Linux](http://discordapp.com/api/download/canary?platform=linux)
+- [Download Canary for Mac OS X](http://discordapp.com/api/download/canary?platform=osx)
+
+
+----------
+
+
+**Creating a webhook**
+
+Open your Discord guild from Canary. Right-click the channel you want to create a webhook for: select *Edit Channel*. Open the *Webhooks* tab on the left, and click on *Create Webhook*. Fill in the form (Name, Channel, Avatar), and **copy the Webhook URL to your clipboard**. You will need this URL for your webhook client.
+
+Great! You're ready to create a webhook using *java-canary-webhooks*
 
 Usage
 ---
