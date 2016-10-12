@@ -10,7 +10,7 @@ Setting Up
 
 Canary is an alternative to the main Discord Client, with the bleeding-edge API features available. It is required to create channel webhooks from a client. You can download Canary depending on your operating system:
 
-- [Download Canary for Windows](discordapp.com/api/download/canary?platform=win)
+- [Download Canary for Windows](http://discordapp.com/api/download/canary?platform=win)
 - [Download Canary for Linux](http://discordapp.com/api/download/canary?platform=linux)
 - [Download Canary for Mac OS X](http://discordapp.com/api/download/canary?platform=osx)
 
